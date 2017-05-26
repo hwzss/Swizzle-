@@ -1,6 +1,6 @@
 # Swizzle-
 一次关于swizzle最佳实践的思考
-一直在swizzle对下面代码有点问题为什么要这样用，到底是做什么。
+一直在使用swizzle时对别人swzzle代码代码有点问题为什么要用下面的代码，到底是做什么。
 
 ```
  Method originalMethod = class_getInstanceMethod(aClass, originalSel);
