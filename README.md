@@ -18,4 +18,4 @@ demo中就是对此进行探讨
 上面的最佳实践方式，个人感觉并不是最佳，因为在需要替换的originalSel在本类以及本类的父类往上一直没有过该方法的实现时，通过上面方式进行swizzle会出现问题，originalMethod为nil，导致class_replaceMethod(aClass, swizzleSel, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));代码失效没有任何作用
 
  总结：
-![总结.png](https://github.com/hwzss/Swizzle-/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%B9%B6%E5%8F%91%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93.png)
+![总结.png](https://github.com/hwzss/Swizzle-/blob/master/class_copyMethodList.png)
