@@ -18,10 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
--(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    NSLog(@"我是祖父类。如果子类swizzle该方法时，但子类游没有实现，所以Method originalMethod = class_getInstanceMethod(aClass, originalSel);就会获得我的方法，class_replaceMethod(aClass, swizzleSel, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));就会将我的实现给swizzleSel");
-}
+//-(void)viewWillAppear:(BOOL)animated{
+//    [super viewWillAppear:animated];
+//    NSLog(@"我是祖父类。如果子类swizzle该方法时，但孙子和他爸都没有实现，Method originalMethod = class_getInstanceMethod(aClass, originalSel);就会获得我的方法，妮妮的！class_replaceMethod(aClass, swizzleSel, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));就会将我的实现给swizzleSel");
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

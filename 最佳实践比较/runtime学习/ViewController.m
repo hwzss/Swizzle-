@@ -22,9 +22,14 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     Son *aSon = [Son new];
-    if ([aSon respondsToSelector:NSSelectorFromString(@"cry")]) {
-        [aSon performSelector:NSSelectorFromString(@"cry")];
+    aSon.schoolName = @"厉害了学校";
+
+    if ([aSon respondsToSelector:NSSelectorFromString(@"eat")]) {
+        [aSon performSelector:NSSelectorFromString(@"eat")];
     }
+//    if ([aSon respondsToSelector:NSSelectorFromString(@"cry")]) {
+//        [aSon performSelector:NSSelectorFromString(@"cry")];
+//    }
 //    if ([aSon respondsToSelector:NSSelectorFromString(@"dance")]) {
 //        [aSon performSelector:NSSelectorFromString(@"dance")];
 //    }

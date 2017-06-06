@@ -13,4 +13,7 @@
 -(void)dance{
     NSLog(@"grandFather hui dance");
 }
+-(void)eat{
+    NSLog(@"grandFater chifan jiu chifan , Nothing to say");
+}
 @end

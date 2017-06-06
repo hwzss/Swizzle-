@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "runtime&#x5b66;&#x4e60;/Son+Swizzle.m"
-            timestampString = "518276255.037805"
+            timestampString = "518409435.241888"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "classSwizzleInstanceMethod()"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "simpleClassSwizzleInstanceMethod()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

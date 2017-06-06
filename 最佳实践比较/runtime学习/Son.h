@@ -10,4 +10,5 @@
 
 @interface Son : Father
 
+@property (copy, nonatomic) NSString *schoolName;
 @end

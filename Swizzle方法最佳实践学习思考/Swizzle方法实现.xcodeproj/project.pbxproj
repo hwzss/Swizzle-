@@ -544,6 +544,7 @@
 				7E247BEF1ED7AF89006DDE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E247BF01ED7AF89006DDE94 /* Build configuration list for PBXNativeTarget "Swizzle方法实现Tests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +553,7 @@
 				7E247BF21ED7AF89006DDE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E247BF31ED7AF89006DDE94 /* Build configuration list for PBXNativeTarget "Swizzle方法实现UITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +562,7 @@
 				7E247BF51ED7AF89006DDE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
